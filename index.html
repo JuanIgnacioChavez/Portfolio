@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
+    <title>Portafolio</title>
+</head>
+<body>
+
+    <!--DISEÑO DE HEADER-->
+
+    <header class="header">
+        <a href="#" class="logo">Portafolio Personal</a>
+        
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Inicio</a>
+            <a href="#about">Acerca de</a>
+            <a href="#portfolio">Proyectos</a>
+            <a href="#contact">Contacto</a>
+        </nav>
+    </header>
+
+    <!--DISEÑO DE INICIO-->
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hola</h3>
+            <h1>Soy Juan Chavez</h1>
+            <h3><span class="multiple-text"></span></h3>
+            <p>Apasionado por crear experiencias digitales modernas, funcionales y atractivas. Combino diseño minimalista con tecnologías actuales para desarrollar sitios web que capturan la esencia de cada proyecto. Mi objetivo es transformar ideas en realidades digitales que conecten con las personas y generen impacto.
+
+            </p>
+            <div class="social-media">
+                <a href="https://github.com/JuanIgnacioChavez"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/juan-ignacio-chavez-3b4521339/"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <a href="#portfolio" class="btn">Proyectos</a>
+        </div>
+
+        <div class="home-img">
+            <img src="png/logo.svg" alt="">
+        </div>
+    </section>
+
+    <!--DISEÑO DE ACERCA DE MI-->
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="png/logo.svg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">Acerca de <span>Mi</span></h2>
+            <h3>Backend Developer</h3>
+            <p>Soy estudiante de analista en sistemas con experiencia en desarrollo backend y conocimientos en lenguajes como C, C#, PHP, Python y JavaScript. Me apasiona resolver problemas complejos y crear soluciones eficientes que mejoren la experiencia del usuario y optimicen procesos. Mi enfoque combina lógica, creatividad y una constante búsqueda de aprendizaje y mejora en cada proyecto que emprendo.</p>
+            <a href="#" class="btn">Leer más</a>
+        </div>
+    </section>
+
+    <!--DISEÑO DE PROYECTOS-->
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Últimos <span>Proyectos</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="png/LOS DOS CHINOS LOGO.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>🛒 Supermarket Management System</h4>
+                    <p>Un sistema completo para la gestión de supermercados desarrollado en C# utilizando Windows Forms</p>
+                    <a href="https://github.com/JuanIgnacioChavez/Sistema-para-Supermercado-C-"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="png/logo cine.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>CineVibe 🎥🍿</h4>
+                    <p>Un sistema para cines desarrollado en PHP como parte de mi tesis en la carrera de Analista en Sistemas.</p>
+                    <a href="https://github.com/JuanIgnacioChavez/CineVibe"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!--DISEÑO DE CONTACTO-->
+    
+    <section class="contact" id="contact">
+        <h2 class="heading">Contáctame</h2>
+
+        <form action="https://api.web3forms.com/submit" method="POST">
+
+            <input type="hidden" name="access_key" value="d263ac46-5dd3-4c6f-892d-9bb74373ce89">
+
+            <div class="input-box">
+                <input type="text" name= "Name" placeholder="Nombre Completo">
+                <input type="email" name= "Email" placeholder="Correo Electrónico">
+            </div>
+
+            <div class="input-box">
+                <input type="number" name="Phone" placeholder="Número de Telefono">
+                <input type="text" name = "Subject" placeholder="Asunto del Email">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+            <input type="submit" value="Enviar Mensaje" class="btn">
+        </form>
+    </section>
+
+    <!--DISEÑO DE FOOTER-->
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by <span>Juan Chavez</span> | All Rights Reserved</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+
+    <!--SCROLLREVEAL-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--TYPED.JS-->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!--JAVASCRIPT-->
+    <script src="main.js"></script>
+</body>
+</html>
